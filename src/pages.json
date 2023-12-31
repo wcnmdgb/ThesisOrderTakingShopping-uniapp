@@ -1,0 +1,109 @@
+{
+	"easycom": {
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/myPage/myPage"
+		},
+		{
+			"path": "pages/order/order"
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/careInstructions/careInstructions"
+		},
+		{
+			"path": "pages/shoeWashing/shoeWashing"
+		},
+		{
+			"path": "pages/balance/balance"
+		},
+		{
+			"path": "pages/rechargeRecord/rechargeRecord"
+		},
+		{
+			"path": "pages/payment/payment"
+		},
+		{
+			"path": "pages/coupon/coupon"
+		},
+		{
+			"path": "pages/confirmOrder/confirmOrder",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/harvestAddress/harvestAddress"
+		},
+		{
+			"path": "pages/addAddress/addAddress"
+		},
+		{
+			"path": "pages/personalSettings/personalSettings"
+		},
+		{
+			"path": "pages/orderDetails/orderDetails"
+		},
+		{
+			"path": "pages/activateMembership/activateMembership"
+		},
+		{
+			"path": "pages/exchange/exchange"
+		},
+		{
+			"path": "pages/voucher/voucher"
+		},
+		{
+			"path": "pages/shareFriends/shareFriends"
+		},
+		{
+			"path": "pages/userlogin/userlogin"
+		}
+	],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/home.png",
+				"selectedIconPath": "./static/home_2.png"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"text": "分类",
+				"iconPath": "./static/fenlei.png",
+				"selectedIconPath": "./static/fenlei_2.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "./static/dingdan.png",
+				"selectedIconPath": "./static/dingdan_2.png"
+			},
+			{
+				"pagePath": "pages/myPage/myPage",
+				"text": "我的",
+				"iconPath": "./static/wd.png",
+				"selectedIconPath": "./static/wd_2.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom"
+	}
+}
